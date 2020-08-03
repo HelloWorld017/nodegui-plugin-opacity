@@ -1,0 +1,33 @@
+{
+  "name": "nodegui-plugin-opacity",
+  "version": "1.0.0",
+  "description": "A QGraphicsOpacityEffect binding for nodegui",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "cross-env CMAKE_BUILD_PARALLEL_LEVEL=8 cmake-js compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloWorld017/nodegui-plugin-opacity.git"
+  },
+  "keywords": [
+    "nodegui"
+  ],
+  "author": "Khinenw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HelloWorld017/nodegui-plugin-opacity/issues"
+  },
+  "homepage": "https://github.com/HelloWorld017/nodegui-plugin-opacity#readme",
+  "peerDependencies": {
+    "@nodegui/nodegui": ">=0.20.0"
+  },
+  "devDependencies": {
+    "@nodegui/nodegui": "^0.24.0"
+  },
+  "dependencies": {
+    "cmake-js": "^6.1.0",
+    "cross-env": "^7.0.2",
+    "node-addon-api": "^3.0.0"
+  }
+}
